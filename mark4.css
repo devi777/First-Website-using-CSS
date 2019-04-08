@@ -1,0 +1,61 @@
+body{
+    background: rgb(68, 201, 235);
+}
+
+header,article,footer{
+    border: 10px #E9B000 solid;
+    margin: 100 px;
+}
+
+header:hover,article:hover,footer:hover{
+    background: yellow;
+}
+
+h1{
+    background: #E86E80;     
+}
+
+h1:hover{
+    background: yellowgreen;
+}
+
+article h1{
+    background: yellow;
+}
+
+p{
+    color: blue;
+}
+
+p:hover{
+    color: purple;
+    border: #E9B000 4px dotted;
+}
+
+ol{
+    color: red;
+}
+
+ol ol{
+    border: 5px red solid;
+}
+
+ol ol:hover{
+    background: skyblue;
+}
+
+footer ol a:visited{
+    color: whitesmoke;
+}
+
+article:hover{
+    background-image: url("C:/Users/Devansh/Desktop/College/PVT/CSS/Mark-2/download.jpg");
+}
+
+li:hover,ol li:hover{
+    color:palevioletred;
+}
+
+header div h1{
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+        Learning Cascading
+        </title>
+        <link href="mark4.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="w3-container">
+                <h1 class="w3-container w3-center w3-animate-bottom">Title</h1>
+            </div>
+            <p>
+            When you use two selectors separated by a space on a rule, you scope the rule to the elements that correspond to the selector on the right that are INSIDE the elements that correspond to the selector on the left. Let's say we have the following HTML:
+            </p>
+            <ol>
+                <li>Secton 1</li>
+                <li>Secton 2</li>
+            </ol>
+        </header>
+        <br><br>
+        <article id="head">
+            <h1>Section 1</h1>
+            <ol>
+                <li>item 1</li>
+                <li>item 2
+                    <ol>
+                        <li> sub item 1 </li>
+                        <li> sub item 2 </li>
+                        <li> sub item 3 </li>
+                        <li> sub item 4 </li>
+                    </ol>
+                </li>
+                <li>item 3</li>
+            </ol>
+            <p>
+            If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that rule would not apply to the images outside the paragraph. Below is a diagram of the given HTML with the two imgs that will styled by the above rule are indicated by the red arrows. 
+            </p>
+        </article>
+        <br><br>
+        <article>
+            <h1>Section 2</h1>
+            <ol>
+                <li>item 1
+                    <ol>
+                        <li> sub item 1 </li>
+                        <li> sub item 2 </li>
+                    </ol>
+                </li>
+                <li>item 2</li>
+            </ol>
+            <p>
+            As your Web pages get more complex, contextual selectors become more important, because it won't scale to apply classes and IDs to each individual item. Contextual selection becomes especially useful when you structure your HTML with section tags like header, section, article and footer. 
+
+            Pay attention to the styles of the paragraphs and lists in the following example:
+            </p>
+        </article>
+        <br><br>
+        <footer>
+            <h1>Footer</h1>
+            <ol>
+                <li><a href="https:\\google.com">link 1</a></li>
+                <li><a href="https:\\youtube.com">link 2</a></li>
+                <li>link 3</li>
+                <li>link 4</li>
+            </ol>
+        </footer>
+    </body>
+</html>
+    
+
+
